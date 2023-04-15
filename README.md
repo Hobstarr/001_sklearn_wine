@@ -19,3 +19,5 @@ Evaluate on testing set.
 Save model for further use.
 
 A quick wine_rating model, the final output is a model that can predict wine ratings when given some wine features.
+
+![results](https://user-images.githubusercontent.com/56070935/232252600-8aaea793-839e-41d5-a76d-af9b6f067959.png)
