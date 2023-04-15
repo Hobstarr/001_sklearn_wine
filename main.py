@@ -60,6 +60,7 @@ print(r2_score(y_test, y_preds))
 print(mean_squared_error(y_test, y_preds))
 
 sns.histplot(y_test - y_preds, bins = 50, label = 'true_rating - predicted_rating')
+plt.title('Difference between predcition results and true results for wine quality')
 plt.axvline(x = 0.0, color = 'r', ls = ':')
 plt.legend()
 plt.show()
